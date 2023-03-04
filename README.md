@@ -1,7 +1,6 @@
 # Formal-Languages-and-Automata
 
-
-    PROJECT 1 <br />
+PROJECT 1 <br />
 Exercise 1. <br />
 Implement a library/program in a programming language of your choosing to load and validate a DFA input file. <br />
 dfaparserengine.py dfaconfigfile <br />
