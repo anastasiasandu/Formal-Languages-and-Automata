@@ -17,7 +17,7 @@ Implement  a  library/program  in  a  programming  language  ofyour choosing to 
 nfaacceptanceengine.py   nfaconfigfile  word to test <br />
 Exercise 3. <br />
 Implement  a  library/program  in  a  programming  language  ofyour choosing to convert a NFA - loaded from a NFA config file, to a DFA. <br />
-nfaconversionengine.py   nfaconfigfile <br />  
+nfaconversionengine.py   nfaconfigfile 
 Exercise 4.( Bonus)  <br />
 Implement a library/program in a programming lan-guage of your choosing to test acceptance of anε−NFA. <br />
 enfaacceptanceengine.py   enfaconfigfile  word to test <br />
