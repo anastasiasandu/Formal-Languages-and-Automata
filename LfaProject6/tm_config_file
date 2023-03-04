@@ -1,0 +1,56 @@
+#
+# comment lines (skip them)
+#
+States:
+1,S
+2
+3
+4
+5
+6
+7
+8
+R
+A
+End
+#
+# comment letter (skip them)
+#
+Sigma:
+a
+b
+*
+End
+#
+# comment lines (skip them)
+#
+Transitions:
+1,a x r,2
+1,b x r,3
+1,* r,8
+2,a r,2
+2,b r,2
+2,* r,4
+3,a r,3
+3,b r,3
+3,* r,5
+4,x r,4
+4,a x l,6
+4,b r,R
+4,_ r,R
+5,x r,5
+5,b x l,6
+5,a r,R
+5,_ r,R
+6,a l,6
+6,b l,6
+6,x l,6
+6,* l,7
+7,a l,7
+7,b l,7
+7,x r,1
+8,x r,8
+8,_ r,A
+8,a r,R
+8,b r,R
+End
